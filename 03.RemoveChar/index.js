@@ -4,5 +4,5 @@ You're given one parameter, the original string. You don't have to worry about s
 */
 
 const removeChar = (str) => {
-  return str.replace(/^./, "").slice(0, -1);
+  return str.slice(1, -1);
 };
