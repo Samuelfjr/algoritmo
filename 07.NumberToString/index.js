@@ -10,3 +10,7 @@ Examples (input --> output):
 999  --> "999"
 -100 --> "-100"
  */
+
+const numberToString = (num) => {
+  return num.toString();
+};
