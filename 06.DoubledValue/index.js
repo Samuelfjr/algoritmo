@@ -7,3 +7,8 @@ For example:
 
 [1, 2, 3] --> [2, 4, 6]
  */
+
+const doubledValue = (x) => {
+  const double = x.map((num) => num * 2);
+  return double;
+};
