@@ -21,3 +21,7 @@ Disclaimer
 
 This is for beginners so we want to test basic loops and string manipulation. Advanced users should easily be able to do this in one line. 
 */
+
+function smash(words) {
+  return words.join(" ");
+}
